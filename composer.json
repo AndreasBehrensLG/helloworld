@@ -1,0 +1,20 @@
+{
+    "name": "secdevab/hello-world",
+    "description": "My first Composer project to register the vendorname secdevab",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "HelloWorld\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Andreas Behrens",
+            "email": "andreas.behrens@securepoint.de"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4.0"
+    }
+}
